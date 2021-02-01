@@ -1,46 +1,41 @@
-# Getting Started with Create React App
+# GitFinder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+  <img alt="icone" title="GitFinder" src="" />
+</h1>
 
-## Available Scripts
+GitFinder é uma aplicação web desenvolvida na interação com a API do GitHub. Nesta aplicação uso meus conhecimentos em ReactJS para criar uma interface de busca de perfis no github. O usuário informa um nome, pesquisa e então o app exibe os dados retornados da API. Uso esse aplicativo em especial para dar início à um estudo sobre temas dentro do ReactJS utilizando a biblioteca Styled-Components para isso. Partindo deste ponto, e que o foco está totalmente no aprendizado, a aplicação é simples e básica, mas me faz entender a importância de temas escuros e claros para diferentes tipos de usuários. Há usuários, como eu por exemplo, que preferimos o tema 'dark' por causar menor dor aos olhos quando observado de um ambiente pouco iluminado. 
 
-In the project directory, you can run:
+<h1 align="center">
+  <img alt="icone" title="GitFinder" src="" />
+</h1>
 
-### `yarn start`
+Neste projeto, crio um aplicativo de pesquisa que usa a API do GitHub para recuperar informações do usuário quando um nome de usuário válido é inserido. A aplicação exibe avatar, nome de usuário, contagem de seguidores, contagem de repositórios e até os próprios repositórios do usuário em questão.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Ferramentas e bibliotecas utilizadas no projeto:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- ReactJS(framework de desenvolvimento)
+- Styled-Components (ferramenta para uso do css em forma de componentes React)
+- react-router-dom (Navegação entre páginas)
+- react-icons (Icons descritivos)
+- axios (integrar api do Github com o front end React)
+- react-switch (switch de mudança do light para dark mode e vice-versa)
+- date-fns (formatação das datas de criação e edição dos repositórios)
 
-### `yarn test`
+### Requisitos Funcionais:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [x]  O usuário pode inserir um nome de usuário
+- [x]  O usuário pode clicar no botão de pesquisa para recuperar informações
+- [x]  O usuário pode alternar o modo escuro/claro
 
-### `yarn build`
+### Requisitos Não Funcionais:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [x]  O usuário pode ver o avatar, nome de usuário, seguidores e contagem de repositórios de usuário pesquisado
+- [x]  O usuário pode os repositórios do usuário pesquisado
+- [x]  O usuário deve receber um alerta se o nome de usuário não for válido
+- [x]  O modo selecionado deve persistir quando o usuário voltar ao aplicativo novamente
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<h1 align="center">
+  <img alt="icone" title="GitFinder" src="" />
+</h1>

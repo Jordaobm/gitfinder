@@ -1,26 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { ProfileProvider } from './hooks/profiles';
+import Routes from './routes';
+import { GlobalStyle } from './styles/global';
+import { ContextThemeProvider } from './hooks/theme';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <ContextThemeProvider>
+      <ProfileProvider>
+        <Routes />
+      </ProfileProvider>
+    </ContextThemeProvider>
+  )
 }
 
 export default App;
