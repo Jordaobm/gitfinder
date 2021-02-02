@@ -1,13 +1,13 @@
 # GitFinder
 
 <h1 align="center">
-  <img alt="icone" title="GitFinder" src="" />
+  <img alt="icone" title="GitFinder" src="https://github.com/Jordaobm/gitfinder/blob/main/src/assets/1.PNG" />
 </h1>
 
 GitFinder é uma aplicação web desenvolvida na interação com a API do GitHub. Nesta aplicação uso meus conhecimentos em ReactJS para criar uma interface de busca de perfis no github. O usuário informa um nome, pesquisa e então o app exibe os dados retornados da API. Uso esse aplicativo em especial para dar início à um estudo sobre temas dentro do ReactJS utilizando a biblioteca Styled-Components para isso. Partindo deste ponto, e que o foco está totalmente no aprendizado, a aplicação é simples e básica, mas me faz entender a importância de temas escuros e claros para diferentes tipos de usuários. Há usuários, como eu por exemplo, que preferimos o tema 'dark' por causar menor dor aos olhos quando observado de um ambiente pouco iluminado. 
 
 <h1 align="center">
-  <img alt="icone" title="GitFinder" src="" />
+  <img alt="icone" title="GitFinder" src="https://github.com/Jordaobm/gitfinder/blob/main/src/assets/2.PNG" />
 </h1>
 
 Neste projeto, crio um aplicativo de pesquisa que usa a API do GitHub para recuperar informações do usuário quando um nome de usuário válido é inserido. A aplicação exibe avatar, nome de usuário, contagem de seguidores, contagem de repositórios e até os próprios repositórios do usuário em questão.
@@ -37,5 +37,5 @@ Neste projeto, crio um aplicativo de pesquisa que usa a API do GitHub para recup
 
 
 <h1 align="center">
-  <img alt="icone" title="GitFinder" src="" />
+  <img alt="icone" title="GitFinder" src="https://github.com/Jordaobm/gitfinder/blob/main/src/assets/3.PNG" />
 </h1>
